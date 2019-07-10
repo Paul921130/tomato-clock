@@ -1,0 +1,25 @@
+#svg{
+    transform: rotate(-90deg);
+}
+#svg circle {
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.5s ease-in-out;
+    stroke: transparent;
+}
+#svg #bar {
+    stroke: #FF4384;
+}
+#cont {
+    display: block;
+    margin:0;
+    /* box-shadow: 0 0 1em black; */
+    border-radius: 100%;
+    position: relative;
+}
+.circle-box{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background-color:#FF4384;
+    border-radius:100%; 
+}
